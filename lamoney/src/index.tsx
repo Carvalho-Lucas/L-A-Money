@@ -7,7 +7,6 @@ createServer({
   routes() {
     this.namespace = 'api';
 
-
     this.get('/transactions', () => {
       return[
         {
